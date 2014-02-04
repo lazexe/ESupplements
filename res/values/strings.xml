@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">ESupplements</string>
+    
+    <string name="byNumberIndicator">By number</string>
+    <string name="ByCategoryIndicator">By category</string>
+    <string name="About">About APP and DEVELOPER</string>
+    <string name="Developer">Developer: Maxim Lazarenko</string>
+    <string name="email">lazexek21@gmail.com</string>
+    <string name="exit_message">Close application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="literature">Information taken from: http://www.abcslim.ru/articles/104/produkty-soderzhacshie-e/</string>
+    
+    <string-array name="ByNumberArray">
+        <item>E100-E200</item>
+        <item>E201-E300</item>
+        <item>E301-E400</item>
+        <item>E401-E500</item>
+        <item>E501-E600</item>
+        <item>E601-E700</item>
+        <item>E701-E800</item>
+        <item>E901-E1000</item>
+    </string-array>
+    
+    <string-array name="ByCategoryArray">
+        <item>Dangerous</item><!-- Опасные -->
+        <item>Very dangerous</item><!-- Очень опасные -->
+        <item>Carcinogenic</item><!-- Канцерогенные -->
+        <item>Stomach upset</item><!-- Расстройство желудка -->
+        <item>Skin deseases</item><!-- Кожные заболевания -->
+        <item>Arterial tension</item>
+        <item>Dang. for children</item><!-- Опасные для детей -->
+        <item>Prohibited</item><!-- Запрещенные -->
+        <item>Suspicious</item><!-- Подозрительные -->
+        <item>Invisible</item>
+    </string-array>
+    
+    
+
+</resources>

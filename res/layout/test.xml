@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="TODO"
+        android:src="@android:drawable/alert_light_frame" />
+    
+    <Button
+        android:id="@+id/testButton" 
+        android:layout_height="wrap_content"
+        android:text="dflsjdflskj dflskdjfskld jfsldkfjsldkfjs"
+        android:padding="0dp"
+        android:layout_margin="5dp"
+        android:maxLines="5"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

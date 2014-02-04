@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/e_name"
+        android:layout_width="match_parent"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="E_test"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/e_full_name"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Full name:"
+        android:textColor="#FFDD00"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/e_category"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Category:"
+        android:textColor="#00D5FF"
+        android:layout_marginBottom="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/e_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Description"
+        android:textColor="#FF8000"
+        android:layout_margin="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+    
+    
+</ScrollView>
